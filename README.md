@@ -35,7 +35,7 @@ Aufgrund der fehlenden benutzerdefinierten Rolle hat die Function App aktuell ke
 
 ### Kostenanalyse
 - **24/7 Betrieb der VM**: Ca. **110 $ pro Monat** pro VM.
-- **Regulierter Betrieb (8:00 - 20:00)**: Ca. **46 $ pro Monat** pro VM.
+- **Regulierter Betrieb (8:00 - 18:00)**: Ca. **46 $ pro Monat** pro VM.
 - **Einsparungen**: Pro VM können **ca. 785 $ pro Jahr** gespart werden.
 
 ---
