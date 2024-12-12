@@ -1,1 +1,2 @@
 # VM-Automation-Gruppe-4
+Your company, EcoCompute, is keen on reducing energy costs. They run a resource-heavy application on a VM that’s only needed during business hours. The IT team has asked you to implement a solution where the VM automatically starts at 8 AM and shuts down at 6 PM daily. Using a Function App and an ARM template, you’ll create and automate this process, showing the CFO how much money they’ll save.
