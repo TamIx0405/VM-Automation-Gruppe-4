@@ -27,28 +27,16 @@ Aufgrund der fehlenden benutzerdefinierten Rolle hat die Function App aktuell ke
    - Eine Rolle mit den Berechtigungen `Microsoft.Compute/virtualMachines/start` und `Microsoft.Compute/virtualMachines/deallocate` muss erstellt werden.
    - Diese Rolle muss der Function App oder ihrem Identitätsprinzipal zugewiesen werden.
 
-
 3. **Alternative Lösung**:
-   - Bis zur Bereitstellung der benutzerdefinierten Rolle kann die Steuerung der VM manuell oder über andere Automatisierungsmethoden erfolgen
-   - (z. B. Azure Logic Apps oder Runbooks).
-  
-   - Hier leider aber leider auch: Azure Logic Apps sind nicht für accessable für "nur" Contributer Nutzer,
-      also hier auch ähnliches Problem :( 
+   - Bis zur Bereitstellung der benutzerdefinierten Rolle kann die Steuerung der VM manuell oder über andere Automatisierungsmethoden erfolgen (z. B. Azure Logic Apps).
 
----
+--- Hier aber leider auch: Azure Logic Apps sind nicht für Contributer Nutzer verfügbar,
+      also hier auch ähnliches Problem.
 
-### Bereitstellung der Function App
-1. **Lokales Testen**:
-   ```bash
-   func start
-   ```
-2. **Veröffentlichung in Azure**:
-   ```bash
-   func azure functionapp publish <FunctionAppName>
-   ```
-
-3. **Monitoring**:
-   - Application Insights aktivieren, um Logs und Fehler nachzuvollziehen.
+### Kostenanalyse
+- **24/7 Betrieb der VM**: Ca. **110 $ pro Monat** pro VM.
+- **Regulierter Betrieb (8:00 - 20:00)**: Ca. **46 $ pro Monat** pro VM.
+- **Einsparungen**: Pro VM können **ca. 785 $ pro Jahr** gespart werden.
 
 ---
 
