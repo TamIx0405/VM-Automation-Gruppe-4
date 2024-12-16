@@ -1,4 +1,4 @@
-//for stop trigger
+
 {
   "bindings": [
     {
@@ -11,7 +11,7 @@
 }
 
 
-//For start trigger
+
 {
   "bindings": [
     {
